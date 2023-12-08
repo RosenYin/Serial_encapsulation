@@ -395,5 +395,4 @@ def Test():
 
 if __name__ == '__main__':
     IO = C_SerialEncapsulation()
-    from json_config import C_JsonConfig
     IO.Print_Used_Com()
